@@ -1,0 +1,218 @@
+2015-02-13T14:36:00.568+0000 [initandlisten] MongoDB starting : pid=1260 port=27017 dbpath=/data/rs1 64-bit host=Pedros-MBP.home
+2015-02-13T14:36:00.568+0000 [initandlisten] db version v2.6.6
+2015-02-13T14:36:00.568+0000 [initandlisten] git version: 608e8bc319627693b04cc7da29ecc300a5f45a1f
+2015-02-13T14:36:00.569+0000 [initandlisten] build info: Darwin mci-osx108-3.build.10gen.cc 12.3.0 Darwin Kernel Version 12.3.0: Sun Jan  6 22:37:10 PST 2013; root:xnu-2050.22.13~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+2015-02-13T14:36:00.569+0000 [initandlisten] allocator: system
+2015-02-13T14:36:00.569+0000 [initandlisten] options: { net: { port: 27017 }, processManagement: { fork: true }, replication: { oplogSizeMB: 64, replSet: "m101" }, storage: { dbPath: "/data/rs1", smallFiles: true }, systemLog: { destination: "file", path: "1.log" } }
+2015-02-13T14:36:00.570+0000 [initandlisten] journal dir=/data/rs1/journal
+2015-02-13T14:36:00.570+0000 [initandlisten] recover : no journal files present, no recovery needed
+2015-02-13T14:36:00.587+0000 [initandlisten] allocating new ns file /data/rs1/local.ns, filling with zeroes...
+2015-02-13T14:36:00.614+0000 [FileAllocator] allocating new datafile /data/rs1/local.0, filling with zeroes...
+2015-02-13T14:36:00.615+0000 [FileAllocator] creating directory /data/rs1/_tmp
+2015-02-13T14:36:00.629+0000 [FileAllocator] done allocating datafile /data/rs1/local.0, size: 16MB,  took 0.013 secs
+2015-02-13T14:36:00.648+0000 [initandlisten] build index on: local.startup_log properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.startup_log" }
+2015-02-13T14:36:00.649+0000 [initandlisten] 	 added index to empty collection
+2015-02-13T14:36:00.650+0000 [initandlisten] waiting for connections on port 27017
+2015-02-13T14:36:00.651+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:00.651+0000 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+2015-02-13T14:36:01.655+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:02.657+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:03.662+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:04.667+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:05.671+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:06.674+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:07.679+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:08.682+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:09.684+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:10.687+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:11.691+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:12.697+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:13.700+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:14.704+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:15.707+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:16.713+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:17.717+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:18.721+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:19.726+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:20.730+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:21.732+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:22.732+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:23.737+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:24.741+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:25.746+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:26.750+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:27.751+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:28.752+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:29.757+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:30.761+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:31.767+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:32.771+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:33.774+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:34.778+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:35.782+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:36.783+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:37.785+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:38.202+0000 [initandlisten] connection accepted from 127.0.0.1:52984 #1 (1 connection now open)
+2015-02-13T14:36:38.790+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:39.794+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:40.796+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:41.800+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:42.801+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:43.805+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:44.809+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:45.814+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:46.814+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:47.819+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:48.820+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:49.825+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:50.829+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:51.830+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:52.831+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:53.836+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:54.841+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:55.845+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:56.850+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:57.852+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:58.858+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:36:59.859+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:37:00.632+0000 [clientcursormon] mem (MB) res:10 virt:2573
+2015-02-13T14:37:00.632+0000 [clientcursormon]  mapped (incl journal view):64
+2015-02-13T14:37:00.632+0000 [clientcursormon]  connections:1
+2015-02-13T14:37:00.861+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:37:01.863+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:37:02.867+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:37:03.868+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:37:04.872+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:37:05.875+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:37:06.881+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:37:07.881+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:37:08.884+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:37:09.888+0000 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2015-02-13T14:37:10.779+0000 [conn1] replSet replSetInitiate admin command received from client
+2015-02-13T14:37:10.781+0000 [conn1] replSet replSetInitiate config object parses ok, 3 members specified
+2015-02-13T14:37:10.785+0000 [conn1] replSet replSetInitiate all members seem up
+2015-02-13T14:37:10.785+0000 [conn1] ******
+2015-02-13T14:37:10.785+0000 [conn1] creating replication oplog of size: 64MB...
+2015-02-13T14:37:10.786+0000 [FileAllocator] allocating new datafile /data/rs1/local.1, filling with zeroes...
+2015-02-13T14:37:10.975+0000 [FileAllocator] done allocating datafile /data/rs1/local.1, size: 128MB,  took 0.188 secs
+2015-02-13T14:37:11.000+0000 [conn1] ******
+2015-02-13T14:37:11.000+0000 [conn1] replSet info saving a newer config version to local.system.replset: { _id: "m101", version: 1, members: [ { _id: 0, host: "localhost:27017" }, { _id: 1, host: "localhost:27018" }, { _id: 2, host: "localhost:27019" } ] }
+2015-02-13T14:37:11.003+0000 [conn1] build index on: local.system.replset properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.system.replset" }
+2015-02-13T14:37:11.005+0000 [conn1] 	 added index to empty collection
+2015-02-13T14:37:11.006+0000 [conn1] replSet saveConfigLocally done
+2015-02-13T14:37:11.006+0000 [conn1] replSet replSetInitiate config now saved locally.  Should come online in about a minute.
+2015-02-13T14:37:11.006+0000 [conn1] command admin.$cmd command: replSetInitiate { replSetInitiate: { _id: "m101", members: [ { _id: 0.0, host: "localhost:27017" }, { _id: 1.0, host: "localhost:27018" }, { _id: 2.0, host: "localhost:27019" } ] } } keyUpdates:0 numYields:0 locks(micros) W:221161 reslen:112 227ms
+2015-02-13T14:37:11.006+0000 [rsStart] replSet I am localhost:27017
+2015-02-13T14:37:11.011+0000 [rsStart] build index on: local.me properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.me" }
+2015-02-13T14:37:11.014+0000 [rsStart] 	 added index to empty collection
+2015-02-13T14:37:11.014+0000 [rsStart] replSet STARTUP2
+2015-02-13T14:37:11.015+0000 [rsSync] replSet SECONDARY
+2015-02-13T14:37:13.010+0000 [rsHealthPoll] replSet member localhost:27018 is up
+2015-02-13T14:37:13.010+0000 [rsHealthPoll] replSet member localhost:27019 is up
+2015-02-13T14:37:13.011+0000 [rsMgr] replSet not electing self, not all members up and we have been up less than 5 minutes
+2015-02-13T14:37:13.012+0000 [rsMgr] replSet not electing self, not all members up and we have been up less than 5 minutes
+2015-02-13T14:37:13.191+0000 [initandlisten] connection accepted from 127.0.0.1:52989 #2 (2 connections now open)
+2015-02-13T14:37:13.192+0000 [conn2] end connection 127.0.0.1:52989 (1 connection now open)
+2015-02-13T14:37:13.192+0000 [initandlisten] connection accepted from 127.0.0.1:52990 #3 (2 connections now open)
+2015-02-13T14:37:13.462+0000 [initandlisten] connection accepted from 127.0.0.1:52992 #4 (3 connections now open)
+2015-02-13T14:37:13.463+0000 [conn4] end connection 127.0.0.1:52992 (2 connections now open)
+2015-02-13T14:37:13.464+0000 [initandlisten] connection accepted from 127.0.0.1:52993 #5 (3 connections now open)
+2015-02-13T14:37:15.014+0000 [rsHealthPoll] replset info localhost:27018 thinks that we are down
+2015-02-13T14:37:15.014+0000 [rsHealthPoll] replset info localhost:27019 thinks that we are down
+2015-02-13T14:37:15.014+0000 [rsHealthPoll] replSet member localhost:27018 is now in state STARTUP2
+2015-02-13T14:37:15.014+0000 [rsHealthPoll] replSet member localhost:27019 is now in state STARTUP2
+2015-02-13T14:37:15.015+0000 [rsMgr] not electing self, localhost:27019 would veto with 'I don't think localhost:27017 is electable'
+2015-02-13T14:37:15.016+0000 [rsMgr] not electing self, localhost:27019 would veto with 'I don't think localhost:27017 is electable'
+2015-02-13T14:37:21.025+0000 [rsMgr] replSet info electSelf 0
+2015-02-13T14:37:21.040+0000 [rsMgr] replSet PRIMARY
+2015-02-13T14:37:29.223+0000 [conn3] end connection 127.0.0.1:52990 (2 connections now open)
+2015-02-13T14:37:29.224+0000 [initandlisten] connection accepted from 127.0.0.1:52998 #6 (4 connections now open)
+2015-02-13T14:37:29.405+0000 [initandlisten] connection accepted from 127.0.0.1:52999 #7 (4 connections now open)
+2015-02-13T14:37:29.411+0000 [initandlisten] connection accepted from 127.0.0.1:53000 #8 (5 connections now open)
+2015-02-13T14:37:29.413+0000 [conn8] end connection 127.0.0.1:53000 (4 connections now open)
+2015-02-13T14:37:29.422+0000 [conn7] end connection 127.0.0.1:52999 (3 connections now open)
+2015-02-13T14:37:29.492+0000 [conn5] end connection 127.0.0.1:52993 (2 connections now open)
+2015-02-13T14:37:29.492+0000 [initandlisten] connection accepted from 127.0.0.1:53001 #9 (4 connections now open)
+2015-02-13T14:37:29.672+0000 [initandlisten] connection accepted from 127.0.0.1:53002 #10 (4 connections now open)
+2015-02-13T14:37:29.677+0000 [initandlisten] connection accepted from 127.0.0.1:53003 #11 (5 connections now open)
+2015-02-13T14:37:29.679+0000 [conn11] end connection 127.0.0.1:53003 (4 connections now open)
+2015-02-13T14:37:29.686+0000 [conn10] end connection 127.0.0.1:53002 (3 connections now open)
+2015-02-13T14:37:30.253+0000 [initandlisten] connection accepted from 127.0.0.1:53004 #12 (4 connections now open)
+2015-02-13T14:37:30.254+0000 [initandlisten] connection accepted from 127.0.0.1:53005 #13 (5 connections now open)
+2015-02-13T14:37:30.528+0000 [initandlisten] connection accepted from 127.0.0.1:53006 #14 (6 connections now open)
+2015-02-13T14:37:30.530+0000 [initandlisten] connection accepted from 127.0.0.1:53007 #15 (7 connections now open)
+2015-02-13T14:37:31.042+0000 [rsHealthPoll] replSet member localhost:27018 is now in state SECONDARY
+2015-02-13T14:37:31.042+0000 [rsHealthPoll] replSet member localhost:27019 is now in state SECONDARY
+2015-02-13T14:37:31.421+0000 [slaveTracking] build index on: local.slaves properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.slaves" }
+2015-02-13T14:37:31.422+0000 [slaveTracking] 	 added index to empty collection
+2015-02-13T14:37:34.137+0000 [conn1] end connection 127.0.0.1:52984 (6 connections now open)
+2015-02-13T14:37:59.272+0000 [conn6] end connection 127.0.0.1:52998 (5 connections now open)
+2015-02-13T14:37:59.273+0000 [initandlisten] connection accepted from 127.0.0.1:53012 #16 (7 connections now open)
+2015-02-13T14:37:59.539+0000 [conn9] end connection 127.0.0.1:53001 (5 connections now open)
+2015-02-13T14:37:59.540+0000 [initandlisten] connection accepted from 127.0.0.1:53013 #17 (7 connections now open)
+2015-02-13T14:38:00.677+0000 [clientcursormon] mem (MB) res:10 virt:2840
+2015-02-13T14:38:00.677+0000 [clientcursormon]  mapped (incl journal view):320
+2015-02-13T14:38:00.678+0000 [clientcursormon]  connections:6
+2015-02-13T14:38:00.678+0000 [clientcursormon]  replication threads:32
+2015-02-13T14:38:29.318+0000 [conn16] end connection 127.0.0.1:53012 (5 connections now open)
+2015-02-13T14:38:29.318+0000 [initandlisten] connection accepted from 127.0.0.1:53018 #18 (7 connections now open)
+2015-02-13T14:38:29.601+0000 [conn17] end connection 127.0.0.1:53013 (5 connections now open)
+2015-02-13T14:38:29.601+0000 [initandlisten] connection accepted from 127.0.0.1:53019 #19 (7 connections now open)
+2015-02-13T14:38:36.572+0000 [initandlisten] connection accepted from 127.0.0.1:53022 #20 (7 connections now open)
+2015-02-13T14:38:36.585+0000 [conn20] end connection 127.0.0.1:53022 (6 connections now open)
+2015-02-13T14:38:59.365+0000 [conn18] end connection 127.0.0.1:53018 (5 connections now open)
+2015-02-13T14:38:59.366+0000 [initandlisten] connection accepted from 127.0.0.1:53031 #21 (7 connections now open)
+2015-02-13T14:38:59.640+0000 [conn19] end connection 127.0.0.1:53019 (5 connections now open)
+2015-02-13T14:38:59.640+0000 [initandlisten] connection accepted from 127.0.0.1:53032 #22 (7 connections now open)
+2015-02-13T14:39:29.418+0000 [conn21] end connection 127.0.0.1:53031 (5 connections now open)
+2015-02-13T14:39:29.418+0000 [initandlisten] connection accepted from 127.0.0.1:53037 #23 (7 connections now open)
+2015-02-13T14:39:29.697+0000 [conn22] end connection 127.0.0.1:53032 (5 connections now open)
+2015-02-13T14:39:29.697+0000 [initandlisten] connection accepted from 127.0.0.1:53038 #24 (7 connections now open)
+2015-02-13T14:39:59.462+0000 [conn23] end connection 127.0.0.1:53037 (5 connections now open)
+2015-02-13T14:39:59.462+0000 [initandlisten] connection accepted from 127.0.0.1:53043 #25 (7 connections now open)
+2015-02-13T14:39:59.749+0000 [conn24] end connection 127.0.0.1:53038 (5 connections now open)
+2015-02-13T14:39:59.751+0000 [initandlisten] connection accepted from 127.0.0.1:53044 #26 (6 connections now open)
+2015-02-13T14:40:29.510+0000 [conn25] end connection 127.0.0.1:53043 (5 connections now open)
+2015-02-13T14:40:29.510+0000 [initandlisten] connection accepted from 127.0.0.1:53053 #27 (7 connections now open)
+2015-02-13T14:40:29.797+0000 [conn26] end connection 127.0.0.1:53044 (5 connections now open)
+2015-02-13T14:40:29.798+0000 [initandlisten] connection accepted from 127.0.0.1:53054 #28 (7 connections now open)
+2015-02-13T14:40:59.549+0000 [conn27] end connection 127.0.0.1:53053 (5 connections now open)
+2015-02-13T14:40:59.550+0000 [initandlisten] connection accepted from 127.0.0.1:53059 #29 (7 connections now open)
+2015-02-13T14:40:59.849+0000 [conn28] end connection 127.0.0.1:53054 (5 connections now open)
+2015-02-13T14:40:59.849+0000 [initandlisten] connection accepted from 127.0.0.1:53060 #30 (7 connections now open)
+2015-02-13T14:41:29.599+0000 [conn29] end connection 127.0.0.1:53059 (5 connections now open)
+2015-02-13T14:41:29.599+0000 [initandlisten] connection accepted from 127.0.0.1:53066 #31 (7 connections now open)
+2015-02-13T14:41:29.891+0000 [conn30] end connection 127.0.0.1:53060 (5 connections now open)
+2015-02-13T14:41:29.891+0000 [initandlisten] connection accepted from 127.0.0.1:53067 #32 (7 connections now open)
+2015-02-13T14:41:59.648+0000 [conn31] end connection 127.0.0.1:53066 (5 connections now open)
+2015-02-13T14:41:59.649+0000 [initandlisten] connection accepted from 127.0.0.1:53082 #33 (7 connections now open)
+2015-02-13T14:41:59.937+0000 [conn32] end connection 127.0.0.1:53067 (5 connections now open)
+2015-02-13T14:41:59.938+0000 [initandlisten] connection accepted from 127.0.0.1:53084 #34 (7 connections now open)
+2015-02-13T14:42:29.695+0000 [conn33] end connection 127.0.0.1:53082 (5 connections now open)
+2015-02-13T14:42:29.696+0000 [initandlisten] connection accepted from 127.0.0.1:53094 #35 (6 connections now open)
+2015-02-13T14:42:29.989+0000 [conn34] end connection 127.0.0.1:53084 (5 connections now open)
+2015-02-13T14:42:29.989+0000 [initandlisten] connection accepted from 127.0.0.1:53095 #36 (7 connections now open)
+2015-02-13T14:42:59.738+0000 [conn35] end connection 127.0.0.1:53094 (5 connections now open)
+2015-02-13T14:42:59.738+0000 [initandlisten] connection accepted from 127.0.0.1:53103 #37 (7 connections now open)
+2015-02-13T14:43:00.041+0000 [conn36] end connection 127.0.0.1:53095 (5 connections now open)
+2015-02-13T14:43:00.041+0000 [initandlisten] connection accepted from 127.0.0.1:53104 #38 (7 connections now open)
+2015-02-13T14:43:00.897+0000 [clientcursormon] mem (MB) res:10 virt:2840
+2015-02-13T14:43:00.897+0000 [clientcursormon]  mapped (incl journal view):320
+2015-02-13T14:43:00.897+0000 [clientcursormon]  connections:6
+2015-02-13T14:43:00.897+0000 [clientcursormon]  replication threads:32
+2015-02-13T14:43:29.793+0000 [conn37] end connection 127.0.0.1:53103 (5 connections now open)
+2015-02-13T14:43:29.793+0000 [initandlisten] connection accepted from 127.0.0.1:53111 #39 (7 connections now open)
+2015-02-13T14:43:30.088+0000 [conn38] end connection 127.0.0.1:53104 (5 connections now open)
+2015-02-13T14:43:30.088+0000 [initandlisten] connection accepted from 127.0.0.1:53112 #40 (7 connections now open)
+2015-02-13T14:43:59.842+0000 [conn39] end connection 127.0.0.1:53111 (5 connections now open)
+2015-02-13T14:43:59.843+0000 [initandlisten] connection accepted from 127.0.0.1:53118 #41 (7 connections now open)
+2015-02-13T14:44:00.141+0000 [conn40] end connection 127.0.0.1:53112 (5 connections now open)
+2015-02-13T14:44:00.142+0000 [initandlisten] connection accepted from 127.0.0.1:53119 #42 (7 connections now open)
+2015-02-13T14:44:29.893+0000 [conn41] end connection 127.0.0.1:53118 (5 connections now open)
+2015-02-13T14:44:29.893+0000 [initandlisten] connection accepted from 127.0.0.1:53126 #43 (7 connections now open)
+2015-02-13T14:44:30.182+0000 [conn42] end connection 127.0.0.1:53119 (5 connections now open)
+2015-02-13T14:44:30.182+0000 [initandlisten] connection accepted from 127.0.0.1:53127 #44 (7 connections now open)
+2015-02-13T14:44:59.936+0000 [conn43] end connection 127.0.0.1:53126 (5 connections now open)
+2015-02-13T14:44:59.936+0000 [initandlisten] connection accepted from 127.0.0.1:53132 #45 (7 connections now open)
+2015-02-13T14:45:00.228+0000 [conn44] end connection 127.0.0.1:53127 (5 connections now open)
+2015-02-13T14:45:00.228+0000 [initandlisten] connection accepted from 127.0.0.1:53133 #46 (7 connections now open)
